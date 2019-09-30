@@ -1,0 +1,13 @@
+blog_inicio:
+    resource: "@BlogInicioBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+_welcome:
+  pattern:  /
+  defaults: { _controller: AcmeDemoBundle:Welcome:index }
+
+secured:
+  resource: @AcmeDemoBundle/Controller
+  type:     annotation
+

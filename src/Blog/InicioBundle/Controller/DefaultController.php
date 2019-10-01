@@ -2,6 +2,7 @@
 
 namespace Blog\InicioBundle\Controller;
 
+use Blog\InicioBundle\BlogInicioBundle;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
@@ -9,11 +10,15 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/hello/{name}")
-     * @Template()
+     * @Route("/index")
+     *
      */
-    public function indexAction($name)
+    public function indexAction()
     {
-        return array('name' => $name);
+        $test = array('nombre'=>'pablo','apellido'=> 'quiroz');
+
+        return $this->render('BlogInicioBundle:Default:index.html.twig');
     }
+
+
 }

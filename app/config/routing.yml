@@ -1,5 +1,5 @@
 blog_inicio:
-    resource: "@BlogInicioBundle/Controller/"
+    resource: "@BlogInicioBundle/Controller"
     type:     annotation
     prefix:   /
 

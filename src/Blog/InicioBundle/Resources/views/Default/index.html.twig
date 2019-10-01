@@ -1,1 +1,15 @@
-Hello {{ name }}!
+{% extends "BlogInicioBundle:Templates:template.html.twig" %}
+
+{% block title 'GnasherMasters.com'%}
+
+{% block navbar %}
+<div class="row">
+</div>
+{% endblock %}
+{% block contenido %}
+    <a href="">ver listado posts</a>
+    <a href="">buscar post</a>
+    <a href="">eliminar post</a>
+    <a href="">generar nuevo post</a>
+{% endblock %}
+{% block footer %}{% endblock %}

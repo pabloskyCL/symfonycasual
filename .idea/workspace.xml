@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b23d1c3-3ba2-402f-b283-b267b8c2276e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Controller/ListadoController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/PostRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/buscaPost.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/eliminaPost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/generaPost.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/listaPost.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/symfonycasual.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfonycasual.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Controller/DefaultController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Controller/ListadoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Controller/ListadoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/PostRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/PostRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/buscaPost.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/buscaPost.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/listaPost.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/listaPost.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Default/index.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,6 +65,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="symfonycasual.local" id="72334150-2f14-4fe8-b26d-d87ccc23d15c" name="symfonycasual.local" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/web" remote-root="/var/www/symfonycasual/web" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
@@ -152,12 +153,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@aa79ad83" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8d783850" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@aa79ad83" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@3e571e00" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8d783850" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@398d5d83" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -179,7 +180,7 @@
       <workItem from="1570012861003" duration="20584000" />
       <workItem from="1570046599334" duration="4823000" />
       <workItem from="1570051434492" duration="611000" />
-      <workItem from="1570075735325" duration="457000" />
+      <workItem from="1570075735325" duration="8611000" />
     </task>
     <servers />
   </component>

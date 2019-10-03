@@ -15,12 +15,12 @@
             <th>tema</th>
             <th>votos</th>
         </tr>
-    {% for d in listadoPost %}
+    {% for li in listadoPost %}
         <tr>
-            <td>{{ d.id }}</td>
-            <td>{{ d.titulo }}</td>
-            <td>{{ d.tema }}</td>
-            <td>{{ d.votos }}</td>
+            <td>{{ li.id }}</td>
+            <td>{{ li.titulo }}</td>
+            <td>{{ li.tema }}</td>
+            <td>{{ li.votos }}</td>
         </tr>
     {% endfor %}
     </table>

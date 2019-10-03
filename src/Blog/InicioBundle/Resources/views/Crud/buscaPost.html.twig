@@ -1,0 +1,27 @@
+{% extends "BlogInicioBundle:Templates:template.html.twig" %}
+
+{% block title 'Buscar post' %}
+
+{% block navbar %}
+    <div class="row">
+    </div>
+{% endblock %}
+
+{% block contenido %}
+    <table>
+        <tr>
+            <th>id</th>
+            <th>titulo</th>
+            <th>tema</th>
+            <th>votos</th>
+        </tr>
+        {% for li in encontrado %}
+            <tr>
+                <td>{{ li.id }}</td>
+                <td>{{ li.titulo }}</td>
+                <td>{{ li.tema }}</td>
+                <td>{{ li.votos }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "BlogInicioBundle:Templates:template.html.twig" %}
+
+{% block title 'Listado de post' %}
+
+{% block navbar %}
+    <div class="row">
+    </div>
+{% endblock %}
+
+{% block contenido %}
+    <table>
+        <tr>
+            <th>id</th>
+            <th>titulo</th>
+            <th>tema</th>
+            <th>votos</th>
+        </tr>
+    {% for d in listadoPost %}
+        <tr>
+            <td>{{ d.id }}</td>
+            <td>{{ d.titulo }}</td>
+            <td>{{ d.tema }}</td>
+            <td>{{ d.votos }}</td>
+        </tr>
+    {% endfor %}
+    </table>
+{% endblock %}

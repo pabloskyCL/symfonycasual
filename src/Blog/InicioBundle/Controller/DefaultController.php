@@ -15,8 +15,6 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-        $test = array('nombre'=>'pablo','apellido'=> 'quiroz');
-
         return $this->render('BlogInicioBundle:Default:index.html.twig');
     }
 

@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b23d1c3-3ba2-402f-b283-b267b8c2276e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Controller/ListadoController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/PostRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/buscaPost.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/eliminaPost" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/generaPost.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/listaPost.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfonycasual.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfonycasual.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Templates/template.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Templates/template.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Default/index.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +23,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -60,6 +72,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
@@ -109,8 +122,16 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Blog/InicioBundle/Repository" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Blog/InicioBundle/Entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Blog/InicioBundle/Repository" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,12 +152,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@619895dc" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@aa79ad83" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@619895dc" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7a3b7d38" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@aa79ad83" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@3e571e00" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -154,7 +175,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569865449910</updated>
-      <workItem from="1569865451199" duration="28305000" />
+      <workItem from="1569865451199" duration="31113000" />
+      <workItem from="1570012861003" duration="20584000" />
+      <workItem from="1570046599334" duration="4823000" />
+      <workItem from="1570051434492" duration="611000" />
+      <workItem from="1570075735325" duration="457000" />
     </task>
     <servers />
   </component>
@@ -166,7 +191,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

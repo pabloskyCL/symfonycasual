@@ -7,9 +7,9 @@
 </div>
 {% endblock %}
 {% block contenido %}
+    {{ mesage }}
     <a href="{{ path('listado') }}">ver listado posts</a>
-    <a href="{{ path('buscar',{'titulo':'hola'}) }}">buscar post</a>
-    <a href="">eliminar post</a>
-    <a href="">generar nuevo post</a>
+    <a href="{{ path('buscar',{'nro_post':'hola'}) }}">buscar post</a>
+    <a href="{{ path('create') }}">generar nuevo post</a>
 {% endblock %}
 {% block footer %}{% endblock %}

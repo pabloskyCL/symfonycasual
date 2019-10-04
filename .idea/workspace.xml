@@ -4,8 +4,11 @@
     <list default="true" id="8b23d1c3-3ba2-402f-b283-b267b8c2276e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Controller/ListadoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Controller/ListadoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/Post.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/PostRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/PostRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/buscaPost.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/buscaPost.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/Usuario.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/eliminaPost" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/generaPost.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/generaPost.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/listaPost.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/listaPost.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Default/index.html.twig" afterDir="false" />
     </list>
@@ -180,7 +183,7 @@
       <workItem from="1570012861003" duration="20584000" />
       <workItem from="1570046599334" duration="4823000" />
       <workItem from="1570051434492" duration="611000" />
-      <workItem from="1570075735325" duration="8611000" />
+      <workItem from="1570075735325" duration="40296000" />
     </task>
     <servers />
   </component>

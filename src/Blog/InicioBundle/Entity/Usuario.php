@@ -64,5 +64,158 @@ class Usuario
     private $numTelefono;
 
 
-}
 
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set nomCompleto
+     *
+     * @param string $nomCompleto
+     *
+     * @return Usuario
+     */
+    public function setNomCompleto($nomCompleto)
+    {
+        $this->nomCompleto = $nomCompleto;
+
+        return $this;
+    }
+
+    /**
+     * Get nomCompleto
+     *
+     * @return string
+     */
+    public function getNomCompleto()
+    {
+        return $this->nomCompleto;
+    }
+
+    /**
+     * Set nomUsuario
+     *
+     * @param string $nomUsuario
+     *
+     * @return Usuario
+     */
+    public function setNomUsuario($nomUsuario)
+    {
+        $this->nomUsuario = $nomUsuario;
+
+        return $this;
+    }
+
+    /**
+     * Get nomUsuario
+     *
+     * @return string
+     */
+    public function getNomUsuario()
+    {
+        return $this->nomUsuario;
+    }
+
+    /**
+     * Set rut
+     *
+     * @param string $rut
+     *
+     * @return Usuario
+     */
+    public function setRut($rut)
+    {
+        $this->rut = $rut;
+
+        return $this;
+    }
+
+    /**
+     * Get rut
+     *
+     * @return string
+     */
+    public function getRut()
+    {
+        return $this->rut;
+    }
+
+    /**
+     * Set contrasena
+     *
+     * @param string $contrasena
+     *
+     * @return Usuario
+     */
+    public function setContrasena($contrasena)
+    {
+        $this->contrasena = $contrasena;
+
+        return $this;
+    }
+
+    /**
+     * Get contrasena
+     *
+     * @return string
+     */
+    public function getContrasena()
+    {
+        return $this->contrasena;
+    }
+
+    /**
+     * Set direccion
+     *
+     * @param string $direccion
+     *
+     * @return Usuario
+     */
+    public function setDireccion($direccion)
+    {
+        $this->direccion = $direccion;
+
+        return $this;
+    }
+
+    /**
+     * Get direccion
+     *
+     * @return string
+     */
+    public function getDireccion()
+    {
+        return $this->direccion;
+    }
+
+    /**
+     * Set numTelefono
+     *
+     * @param string $numTelefono
+     *
+     * @return Usuario
+     */
+    public function setNumTelefono($numTelefono)
+    {
+        $this->numTelefono = $numTelefono;
+
+        return $this;
+    }
+
+    /**
+     * Get numTelefono
+     *
+     * @return string
+     */
+    public function getNumTelefono()
+    {
+        return $this->numTelefono;
+    }
+}

@@ -21,6 +21,7 @@
             <td>{{ li.titulo }}</td>
             <td>{{ li.tema }}</td>
             <td>{{ li.votos }}</td>
+            <td><a href="{{ path('eliminar', { 'nro_post': li.nro_post }) }}">Eliminar post</a></td>
         </tr>
     {% endfor %}
     </table>

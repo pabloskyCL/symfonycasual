@@ -3,12 +3,14 @@
 namespace Blog\InicioBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
+
 
 /**
  * Post
  *
  * @ORM\Table(name="post")
- * @ORM\Entity
+ * @ORM\Entity(repositoryClass="Blog\InicioBundle\Entity\PostRepository")
  */
 class Post
 {
@@ -23,14 +25,14 @@ class Post
 
     /**
      * @var string
-     *
+     * @Assert\NotBlank(message="debe ingresar un titulo")
      * @ORM\Column(name="titulo", type="string", length=50, nullable=true)
      */
     private $titulo;
 
     /**
      * @var string
-     *
+     * @Assert\NotBlank(message="se debe ingresar el contenido del post")
      * @ORM\Column(name="contenido", type="string", length=200, nullable=true)
      */
     private $contenido;
@@ -44,21 +46,20 @@ class Post
 
     /**
      * @var string
-     *
+     * @Assert\NotBlank(message="ingrese este campo es obligatorio")
      * @ORM\Column(name="respuesta", type="string", length=200, nullable=true)
      */
     private $respuesta;
 
     /**
      * @var string
-     *
+     * @Assert\NotBlank(message="ingrese respuesta")
      * @ORM\Column(name="tema", type="string", length=20, nullable=true)
      */
     private $tema;
 
     /**
      * @var integer
-     *
      * @ORM\Column(name="nro_post", type="integer", nullable=true)
      */
     private $nroPost;

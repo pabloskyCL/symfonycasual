@@ -22,13 +22,15 @@ class PostRepository extends EntityRepository
         return $query->fetchAll();
     }
 
-    public function eliminaPost($nro_post){
+    public function eliminaPost($nro_pos){
         $conn   = $this->getEntityManager()->getConnection();
         $sql ='delete from post where nro_post = :nroPost';
         $query = $conn->prepare($sql);
-        $query->bindValue("nroPost",$nro_post);
+        $query->bindValue("nroPost",$nro_pos);
         $query->execute();
-        return $query->fetchAll();
+        if($query->rowCount()<=0) {
+            return $mesage = 'post no eliminado';
+        }
     }
 
 }

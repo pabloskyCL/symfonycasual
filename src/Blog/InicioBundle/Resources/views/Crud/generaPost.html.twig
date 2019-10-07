@@ -7,24 +7,24 @@
     </div>
 {% endblock %}
 
+{% if mensaje is empty %}
+    {% block notificacion %} {{ mensaje }} {% endblock %}
+{% endif %}
+
 {% block contenido %}
 
-    <form action= "{{ path('create') }}" >
-    {{ form_start(form) }}
+    <form action= "{{ path('create') }}" method="post" >
+
     {{ form(form) }}
-    {{ mesage }}
+
     {{ form_errors(form) }}
 
     {{ form_row(form.titulo) }}
     {{ form_row(form.tema) }}
     {{ form_row(form.contenido) }}
     {{ form_row(form.respuesta) }}
-    {{ form_widget(form.guardar) }}
-
-    {{ form_end(form) }}
-
-    <input type="submit" value="guardar" />
 
     </form>
+
 
 {% endblock %}

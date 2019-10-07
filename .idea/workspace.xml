@@ -3,14 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="8b23d1c3-3ba2-402f-b283-b267b8c2276e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Controller/DefaultController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Controller/ListadoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Controller/ListadoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/Post.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/Post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/PostRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/PostRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/Usuario.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/eliminaPost" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Form/PostType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Form/PostType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/config/services.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/config/services.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/generaPost.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/generaPost.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/listaPost.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/listaPost.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Templates/template.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Templates/template.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -156,12 +158,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8d783850" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@234a3b96" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@8d783850" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@398d5d83" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@234a3b96" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@53147435" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -183,7 +185,9 @@
       <workItem from="1570012861003" duration="20584000" />
       <workItem from="1570046599334" duration="4823000" />
       <workItem from="1570051434492" duration="611000" />
-      <workItem from="1570075735325" duration="40296000" />
+      <workItem from="1570075735325" duration="41044000" />
+      <workItem from="1570411609032" duration="4744000" />
+      <workItem from="1570424641693" duration="13853000" />
     </task>
     <servers />
   </component>

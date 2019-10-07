@@ -10,6 +10,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Blog\InicioBundle\Form\PostType;
 use Blog\InicioBundle\Entity\Post;
+use Symfony\Component\Form\FormEvent;
 
 
 class ListadoController extends Controller
@@ -39,33 +40,29 @@ class ListadoController extends Controller
     public function eliminaAction($nro_post){
         $result = $this->getDoctrine()->getRepository('BlogInicioBundle:Post')->eliminaPost($nro_post);
         if(isset($result)){
-            $mensaje = 'post eliminado';
+            $result = 'error al eliminar';
         }else{
-            $mensaje = 'Error al eliminar el post';
+            $result = 'post eliminado';
         }
-        return $this->render('BlogInicioBundle:Crud:listaPost.html.twig', array('mensaje'=> $mensaje));
+        return $this->render('BlogInicioBundle:Default:index.html.twig', array('mensaje'=> $result));
     }
 
 
     /**
      * @Route("/index/create", name="create")
-     * @Method("POST")
      */
-    public function createAction(Request $request){
+    public function createAction(Request $request)
+    {
         $post = new Post();
         $form = $this->createForm(new PostType(), $post);
         $form->handleRequest($request);
-
-        if($form->isValid()){
+        if ($form->isValid()) {
             $em = $this->getDoctrine()->getManager();
             $em->persist($post);
             $em->flush();
-            $mesage = 'post guardado';
-            return $this->redirectToRoute('blog_inicio_default_index',array('success' => $mesage));
+            return $this->render('BlogInicioBundle:Default:index.html.twig', array('mensaje' => 'post ingresado'));
         }
-
-        return $this->render('BlogInicioBundle:Crud:generaPost.html.twig',array('mensaje' => $mesage='error campo invalido'));
-
+            return $this->render("BlogInicioBundle:Crud:generaPost.html.twig", array('form' => $form->createView(), 'mensaje' => ''));
     }
 
 

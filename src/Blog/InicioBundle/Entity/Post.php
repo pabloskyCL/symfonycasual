@@ -53,7 +53,7 @@ class Post
 
     /**
      * @var string
-     * @Assert\NotBlank(message="ingrese respuesta")
+     * @Assert\NotBlank(message="ingrese tema es obligatorio")
      * @ORM\Column(name="tema", type="string", length=20, nullable=true)
      */
     private $tema;

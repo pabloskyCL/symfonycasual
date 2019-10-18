@@ -1,0 +1,21 @@
+parameters:
+    my_validador.class: Blog\InicioBundle\Validaciones\ValidarPost
+    my_validador.validador: valida
+
+services:
+    my_validador:
+        class: "%my_validador.class%"
+        arguments: ["%my_validador.validador%"]
+    kernel.listener.my_listener:
+        class: Blog\InicioBundle\EventListener\BlogExceptionListener
+        tags:
+            - { name: kernel.event_listener, event: kernel.exception, method: onKernelException }
+    kernel.listener.my_request:
+        class: Blog\InicioBundle\EventListener\RequestListener
+        tags:
+            - { name: kernel.event_listener, event: kernel.request, method: onKernelRequest }
+            - { name: kernel.event_listener, event: kernel.request, method: sessionValida }
+    kernel.listener.post.ingresado:
+        class: Blog\InicioBundle\EventListener\ResponseListener
+        tags:
+            - { name: kernel.event_listener, event: kernel.request, method: onPostInsert }

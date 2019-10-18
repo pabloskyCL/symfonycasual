@@ -7,13 +7,13 @@
     </div>
 {% endblock %}
 
-{% if mensaje is empty %}
-    {% block notificacion %} {{ mensaje }} {% endblock %}
-{% endif %}
+{% block notificacion %}
+
+{% endblock %}
 
 {% block contenido %}
 
-    <form action= "{{ path('create') }}" method="post" >
+    <form action= "{{ path('create') }}" method="post" id="postForm" >
 
     {{ form(form) }}
 
@@ -23,8 +23,13 @@
     {{ form_row(form.tema) }}
     {{ form_row(form.contenido) }}
     {{ form_row(form.respuesta) }}
-
+    {{ form_row(form.votos) }}
+        {{ form_row(form.nro_post) }}
     </form>
 
+    <button type="button" id="propalert">prop alert</button>
+    <button type="button" id="mensaje" >cambiar color</button>
+    <button type="button" id="visible" >crear post</button>
+    <p class="hola">hola mundo</p>
 
 {% endblock %}

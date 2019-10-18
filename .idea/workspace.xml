@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b23d1c3-3ba2-402f-b283-b267b8c2276e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Event/FilterResponseEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/EventListener/BlogExceptionListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/EventListener/RequestListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/EventListener/ResponseListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/public/js/alertas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/StoreEvents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Validaciones/ValidarPost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Controller/DefaultController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Controller/ListadoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Controller/ListadoController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/Post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/PostRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Entity/PostRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Form/PostType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Form/PostType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/config/services.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/config/services.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/config/services.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/generaPost.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/generaPost.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/listaPost.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Crud/listaPost.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Default/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Templates/template.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/Blog/InicioBundle/Resources/views/Templates/template.html.twig" afterDir="false" />
     </list>
@@ -66,20 +75,35 @@
   <component name="FavoritesManager">
     <favorites_list name="symfonycasual" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" notify_if_session_was_finished_without_being_paused="false" />
   <component name="PhpServers">
     <servers>
       <server host="symfonycasual.local" id="72334150-2f14-4fe8-b26d-d87ccc23d15c" name="symfonycasual.local" use_path_mappings="true">
         <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/var/www/symfonycasual" />
           <mapping local-root="$PROJECT_DIR$/web" remote-root="/var/www/symfonycasual/web" />
         </path_mappings>
       </server>
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="Remote PHP 5.6">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
       <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
@@ -128,8 +152,9 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Blog/InicioBundle/Repository" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -158,12 +183,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@234a3b96" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c782a060" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@234a3b96" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@53147435" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@c782a060" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@58719ed0" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -187,7 +212,17 @@
       <workItem from="1570051434492" duration="611000" />
       <workItem from="1570075735325" duration="41044000" />
       <workItem from="1570411609032" duration="4744000" />
-      <workItem from="1570424641693" duration="13853000" />
+      <workItem from="1570424641693" duration="25108000" />
+      <workItem from="1570546578280" duration="11415000" />
+      <workItem from="1570617980245" duration="808000" />
+      <workItem from="1570628449148" duration="17346000" />
+      <workItem from="1570714588754" duration="4456000" />
+      <workItem from="1570719690634" duration="15696000" />
+      <workItem from="1570800850641" duration="15940000" />
+      <workItem from="1571059567294" duration="11622000" />
+      <workItem from="1571145860667" duration="18649000" />
+      <workItem from="1571233343962" duration="13807000" />
+      <workItem from="1571318932589" duration="26988000" />
     </task>
     <servers />
   </component>

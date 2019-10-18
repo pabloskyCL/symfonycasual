@@ -6,17 +6,18 @@
 <div class="row">
 </div>
 {% endblock %}
-{% if mensaje is not empty %}
 
     {% block notificacion %}
-     {{ mensaje }}
+        {{ mensaje }}
+
     {% endblock %}
 
-{% endif %}
 {% block contenido %}
     <a href="{{ path('listado') }}">ver listado posts</a>
     <a href="{{ path('buscar',{'nro_post':'hola'}) }}">buscar post</a>
     <a href="{{ path('create') }}">generar nuevo post</a>
+
 {% endblock %}
 
-{% block footer %}{% endblock %}
+{% block footer %}
+{% endblock %}
